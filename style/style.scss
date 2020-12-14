@@ -1,0 +1,314 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lusitana", serif;
+
+  header {
+    height: 8rem;
+    margin: 0rem 5rem;
+    border-bottom: 1px solid black;
+    .row {
+      padding: 2rem;
+      flex-wrap: nowrap;
+      .center-col {
+        .nav {
+          a {
+            color: black;
+            font-size: 19px;
+          }
+        }
+      }
+      .right-col {
+        .icon {
+          img {
+            width: 25px;
+            margin-left: 2rem;
+          }
+        }
+      }
+    }
+  }
+  main {
+    margin: 3rem 9rem;
+    .text {
+      margin-left: 0.5rem;
+      p {
+        font-size: 22px;
+      }
+    }
+    .card1 {
+      display: flex;
+      flex-direction: column;
+
+      ul {
+        padding-top: 1rem;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        a {
+          text-decoration: none;
+          color: gray;
+          font-size: 18px;
+          &:hover {
+            color: black;
+          }
+        }
+      }
+    }
+    .main-row {
+      margin-top: 4rem;
+      margin-left: 0.5rem;
+      .left-col1 {
+        img {
+          width: 420px;
+          height: 420px;
+          border-radius: 25px;
+        }
+      }
+      .center-col1 {
+        .text1 {
+          margin-top: 9rem;
+          h1 {
+            font-weight: 700;
+          }
+        }
+      }
+      .right-col1 {
+        img {
+          width: 8rem;
+          padding-top: 7rem;
+          padding-left: 1rem;
+          margin-right: 1rem;
+          &:nth-child(2) {
+            margin-right: 0;
+          }
+        }
+      }
+    }
+    .main-row2 {
+      margin-left: 0.5rem;
+      margin-top: 3rem;
+      .card {
+        padding-right: 4rem;
+        &:nth-child(3) {
+          padding-right: 0;
+        }
+        border: none;
+        img {
+          border-radius: 25px;
+
+          height: 450px;
+        }
+        .card-body {
+          text-align: center;
+          p {
+            color: gray;
+          }
+        }
+      }
+    }
+    .card2 {
+      margin-top: 4rem;
+      img {
+        height: 800px;
+
+        border-radius: 25px;
+      }
+      .card-body {
+        text-align: center;
+        p {
+          font-size: 20px;
+        }
+      }
+    }
+    .card3 {
+      background-color: rgb(226, 220, 220);
+      height: 210px;
+      margin-top: 3rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .card-body {
+        text-align: center;
+        span {
+          font-size: 22px;
+        }
+      }
+      .form {
+        padding-bottom: 3rem;
+
+        input {
+          height: 44px;
+          width: 18rem;
+        }
+        button {
+          height: 42px;
+          width: 8rem;
+          background-color: black;
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #webpage {
+    padding: 0rem !important;
+
+    header {
+      width: 320px !important;
+      height: 5rem !important;
+      margin: 0rem !important;
+      padding: 0rem !important;
+      .row {
+        padding: 1rem 0rem !important;
+        width: 320px !important;
+        .left-col {
+          padding: 0rem 1rem !important;
+          width: 210px !important;
+          .logo {
+            font-size: 30px;
+          }
+        }
+        .center-col {
+          display: none !important;
+        }
+        .right-col {
+          padding: 0 !important;
+          width: 120px !important;
+          margin: 0 !important;
+        }
+      }
+    }
+    main {
+      margin: 3rem 0rem !important;
+      .text {
+        margin-left: 0rem !important;
+        padding-left: 1rem !important;
+        width: 320px !important;
+        p {
+          font-size: 14px !important;
+        }
+      }
+      .card1 {
+        width: 320px !important;
+        margin: 0rem !important;
+        img {
+          margin: 0rem !important;
+          width: 320px !important;
+        }
+
+        ul {
+          padding-right: 2rem !important;
+
+          a {
+            font-size: 12px !important;
+          }
+        }
+      }
+      .main-row {
+        margin-top: 4rem 0rem !important;
+        width: 320px !important;
+        .left-col1 {
+          width: 270px !important;
+          img {
+            border-radius: 25px !important;
+            width: 270px !important;
+            height: 250px !important;
+          }
+        }
+        .center-col1 {
+          padding: 0rem !important;
+          width: 280px !important;
+          .text1 {
+            padding-left: 1rem !important;
+
+            h1 {
+              font-weight: 700;
+              font-size: 28px !important;
+            }
+          }
+        }
+        .right-col1 {
+          width: 280px !important;
+          padding-left: 2rem !important;
+          img {
+            width: 6rem !important;
+
+            padding-left: 1rem !important;
+            margin-right: 0rem !important;
+          }
+        }
+      }
+      .main-row2 {
+        width: 300px !important;
+        margin-left: 0rem !important;
+        margin-top: 2rem !important;
+        .card {
+          width: 255px !important;
+          padding-right: 0rem !important;
+
+          img {
+            border-radius: 25px !important;
+            width: 300px !important;
+            height: 260px !important;
+          }
+          .card-body {
+            text-align: start !important;
+            p {
+              color: gray;
+            }
+          }
+        }
+      }
+      .card2 {
+        width: 320px !important;
+        margin-top: 4rem;
+        margin-left: 0rem !important;
+        img {
+          height: 350px !important;
+        }
+        .card-body {
+          text-align: center;
+          h2 {
+            font-size: 25px !important;
+          }
+          p {
+            font-size: 14px !important;
+          }
+        }
+      }
+      .card3 {
+        width: 320px !important;
+        height: 240px !important;
+
+        .card-body {
+          span {
+            font-size: 12px !important;
+          }
+        }
+        .form {
+          padding-bottom: 3rem;
+
+          input {
+            height: 2rem !important;
+            width: 8rem !important;
+          }
+          button {
+            height: 2rem !important;
+            width: 7rem;
+            background-color: black;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}

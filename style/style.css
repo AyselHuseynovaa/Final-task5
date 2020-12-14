@@ -1,0 +1,341 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Lusitana", serif;
+}
+
+body header {
+  height: 8rem;
+  margin: 0rem 5rem;
+  border-bottom: 1px solid black;
+}
+
+body header .row {
+  padding: 2rem;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+body header .row .center-col .nav a {
+  color: black;
+  font-size: 19px;
+}
+
+body header .row .right-col .icon img {
+  width: 25px;
+  margin-left: 2rem;
+}
+
+body main {
+  margin: 3rem 9rem;
+}
+
+body main .text {
+  margin-left: 0.5rem;
+}
+
+body main .text p {
+  font-size: 22px;
+}
+
+body main .card1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body main .card1 ul {
+  padding-top: 1rem;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body main .card1 ul a {
+  text-decoration: none;
+  color: gray;
+  font-size: 18px;
+}
+
+body main .card1 ul a:hover {
+  color: black;
+}
+
+body main .main-row {
+  margin-top: 4rem;
+  margin-left: 0.5rem;
+}
+
+body main .main-row .left-col1 img {
+  width: 420px;
+  height: 420px;
+  border-radius: 25px;
+}
+
+body main .main-row .center-col1 .text1 {
+  margin-top: 9rem;
+}
+
+body main .main-row .center-col1 .text1 h1 {
+  font-weight: 700;
+}
+
+body main .main-row .right-col1 img {
+  width: 8rem;
+  padding-top: 7rem;
+  padding-left: 1rem;
+  margin-right: 1rem;
+}
+
+body main .main-row .right-col1 img:nth-child(2) {
+  margin-right: 0;
+}
+
+body main .main-row2 {
+  margin-left: 0.5rem;
+  margin-top: 3rem;
+}
+
+body main .main-row2 .card {
+  padding-right: 4rem;
+  border: none;
+}
+
+body main .main-row2 .card:nth-child(3) {
+  padding-right: 0;
+}
+
+body main .main-row2 .card img {
+  border-radius: 25px;
+  height: 450px;
+}
+
+body main .main-row2 .card .card-body {
+  text-align: center;
+}
+
+body main .main-row2 .card .card-body p {
+  color: gray;
+}
+
+body main .card2 {
+  margin-top: 4rem;
+}
+
+body main .card2 img {
+  height: 800px;
+  border-radius: 25px;
+}
+
+body main .card2 .card-body {
+  text-align: center;
+}
+
+body main .card2 .card-body p {
+  font-size: 20px;
+}
+
+body main .card3 {
+  background-color: #e2dcdc;
+  height: 210px;
+  margin-top: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main .card3 .card-body {
+  text-align: center;
+}
+
+body main .card3 .card-body span {
+  font-size: 22px;
+}
+
+body main .card3 .form {
+  padding-bottom: 3rem;
+}
+
+body main .card3 .form input {
+  height: 44px;
+  width: 18rem;
+}
+
+body main .card3 .form button {
+  height: 42px;
+  width: 8rem;
+  background-color: black;
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  #webpage {
+    padding: 0rem !important;
+  }
+  #webpage header {
+    width: 320px !important;
+    height: 5rem !important;
+    margin: 0rem !important;
+    padding: 0rem !important;
+  }
+  #webpage header .row {
+    padding: 1rem 0rem !important;
+    width: 320px !important;
+  }
+  #webpage header .row .left-col {
+    padding: 0rem 1rem !important;
+    width: 210px !important;
+  }
+  #webpage header .row .left-col .logo {
+    font-size: 30px;
+  }
+  #webpage header .row .center-col {
+    display: none !important;
+  }
+  #webpage header .row .right-col {
+    padding: 0 !important;
+    width: 120px !important;
+    margin: 0 !important;
+  }
+  #webpage main {
+    margin: 3rem 0rem !important;
+  }
+  #webpage main .text {
+    margin-left: 0rem !important;
+    padding-left: 1rem !important;
+    width: 320px !important;
+  }
+  #webpage main .text p {
+    font-size: 14px !important;
+  }
+  #webpage main .card1 {
+    width: 320px !important;
+    margin: 0rem !important;
+  }
+  #webpage main .card1 img {
+    margin: 0rem !important;
+    width: 320px !important;
+  }
+  #webpage main .card1 ul {
+    padding-right: 2rem !important;
+  }
+  #webpage main .card1 ul a {
+    font-size: 12px !important;
+  }
+  #webpage main .main-row {
+    margin-top: 4rem 0rem !important;
+    width: 320px !important;
+  }
+  #webpage main .main-row .left-col1 {
+    width: 270px !important;
+  }
+  #webpage main .main-row .left-col1 img {
+    border-radius: 25px !important;
+    width: 270px !important;
+    height: 250px !important;
+  }
+  #webpage main .main-row .center-col1 {
+    padding: 0rem !important;
+    width: 280px !important;
+  }
+  #webpage main .main-row .center-col1 .text1 {
+    padding-left: 1rem !important;
+  }
+  #webpage main .main-row .center-col1 .text1 h1 {
+    font-weight: 700;
+    font-size: 28px !important;
+  }
+  #webpage main .main-row .right-col1 {
+    width: 280px !important;
+    padding-left: 2rem !important;
+  }
+  #webpage main .main-row .right-col1 img {
+    width: 6rem !important;
+    padding-left: 1rem !important;
+    margin-right: 0rem !important;
+  }
+  #webpage main .main-row2 {
+    width: 300px !important;
+    margin-left: 0rem !important;
+    margin-top: 2rem !important;
+  }
+  #webpage main .main-row2 .card {
+    width: 255px !important;
+    padding-right: 0rem !important;
+  }
+  #webpage main .main-row2 .card img {
+    border-radius: 25px !important;
+    width: 300px !important;
+    height: 260px !important;
+  }
+  #webpage main .main-row2 .card .card-body {
+    text-align: start !important;
+  }
+  #webpage main .main-row2 .card .card-body p {
+    color: gray;
+  }
+  #webpage main .card2 {
+    width: 320px !important;
+    margin-top: 4rem;
+    margin-left: 0rem !important;
+  }
+  #webpage main .card2 img {
+    height: 350px !important;
+  }
+  #webpage main .card2 .card-body {
+    text-align: center;
+  }
+  #webpage main .card2 .card-body h2 {
+    font-size: 25px !important;
+  }
+  #webpage main .card2 .card-body p {
+    font-size: 14px !important;
+  }
+  #webpage main .card3 {
+    width: 320px !important;
+    height: 240px !important;
+  }
+  #webpage main .card3 .card-body span {
+    font-size: 12px !important;
+  }
+  #webpage main .card3 .form {
+    padding-bottom: 3rem;
+  }
+  #webpage main .card3 .form input {
+    height: 2rem !important;
+    width: 8rem !important;
+  }
+  #webpage main .card3 .form button {
+    height: 2rem !important;
+    width: 7rem;
+    background-color: black;
+    color: white;
+  }
+}
+/*# sourceMappingURL=style.css.map */
